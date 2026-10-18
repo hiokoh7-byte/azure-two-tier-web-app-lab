@@ -91,7 +91,7 @@ resource "azurerm_network_security_rule" "db_allow_ssh" {
 
 resource "azurerm_network_security_group" "web" {
   location            = azurerm_resource_group.res-1.location
-  name                = "vm-web-02-nsg"
+  name                = "vm-web-01-nsg"
   resource_group_name = azurerm_resource_group.res-1.name
 }
 
@@ -127,7 +127,7 @@ resource "azurerm_network_security_rule" "web_allow_http" {
 resource "azurerm_public_ip" "web" {
   allocation_method   = "Static"
   location            = azurerm_resource_group.res-1.location
-  name                = "vm-web-02-ip"
+  name                = "vm-web-01-ip"
   resource_group_name = azurerm_resource_group.res-1.name
 }
 
@@ -153,7 +153,7 @@ resource "azurerm_network_interface_security_group_association" "db" {
 
 resource "azurerm_network_interface" "web" {
   location            = azurerm_resource_group.res-1.location
-  name                = "vm-web-02682"
+  name                = "vm-web-01682"
   resource_group_name = azurerm_resource_group.res-1.name
 
   ip_configuration {
