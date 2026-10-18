@@ -15,7 +15,7 @@ provider "azurerm" {
 # 1. Resource Group
 resource "azurerm_resource_group" "res-1" {
   location = "mexicocentral"
-  name     = "App-RG-Labs23"
+  name     = "App-RG-Lab02"
 }
 
 # 2. SSH Public Key
