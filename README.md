@@ -7,7 +7,7 @@ Deploying a classic IaaS architecture in Azure: a public web tier and a private 
 ![Cost](https://img.shields.io/badge/Cost-Free_Tier-yellow)
 
 ## 🎥 Watch Me Live
-[Watch me build this lab live →](PASTE_YOUR_LINK_HERE)
+[Watch me build this lab live →](https://www.loom.com/share/056b4ac77e834bb88f891b78e413fd84)
 
 ## Overview
 
